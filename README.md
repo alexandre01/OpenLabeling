@@ -9,6 +9,15 @@ Those two features combined enable a significant time-saving in the tedious proc
 
 Works both on CPU (3-5fps) and GPU (20-30fps).
 
+## Demo
+
+![](doc/images/1.jpg)
+*Manually provided bounding box of a vehicle at frame 0.*
+
+![](doc/images/2.jpg)
+*Bounding box of the tracked vehicle after 230 frames. Notice how SiamMask has automatically modified the aspect ratio of the vehicle after it turned.*
+
+
 ## Setup
 
 - To install all the dependencies, simply type:
@@ -36,10 +45,3 @@ By default, SiamMask will be used. To use another tracker, provide it as command
 ```
 python -m main.main --tracker_type KCF
 ```
-
-
-![](doc/images/1.jpg)
-*Manually provided bounding box of a vehicle at frame 0.*
-
-![](doc/images/2.jpg)
-*Bounding box of the tracked vehicle after 230 frames. Notice how SiamMask has automatically modified the aspect ratio of the vehicle after it turned.*
