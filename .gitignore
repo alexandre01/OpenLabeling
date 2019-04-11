@@ -1,0 +1,5 @@
+.idea/
+venv/
+main/input/honda_mov
+main/output
+__pycache__
