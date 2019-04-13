@@ -882,7 +882,7 @@ class LabelTracker():
             initial_bbox = (xmin, ymin, xmax - xmin, ymax - ymin)
             tracker.init(self.init_frame, initial_bbox)
 
-        print("Starting to track with {}... ".format(self.tracker_type), end="")
+        print("Starting to track with {}... ".format(self.tracker_type))
 
         for frame_path in self.next_frame_path_list:
             if done:

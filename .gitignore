@@ -3,3 +3,4 @@ venv/
 main/input/honda_mov
 main/output
 __pycache__
+*.pyc
